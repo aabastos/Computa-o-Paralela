@@ -1,0 +1,55 @@
+sequencial:
+    real time: 1,226s
+    work_hard: 1,032s
+    porcentagem compute_path: 98,8%
+    self seconds compute_path: 0,51s
+    First Compute Path Time = 0.196785
+    Second Compute Path Time = 0.834138
+
+estatico:
+    real time: 0,356s
+    work_hard: 0,15s
+    porcentagem compute_path: 88,24%
+    self seconds compute_path total: 0,15s
+    First Compute Path Time = 0.018868
+    Second Compute Path Time = 0.135622
+
+
+
+==================================================================================
+MINHA MAQUINA
+
+sequencial:
+    real time: 2.537s
+    work_hard: 2.068s
+    porcentagem compute_path: 95.01%
+    self seconds compute_path: 0.76s
+    First Compute Path Time = 0.409596
+    Second Compute Path Time = 1.656805
+
+-> compute_path paralelizado
+
+estatico:
+    real time: 1.893s
+    work_hard: 1.419s
+    First Compute Path Time = 0.177783
+    Second Compute Path Time = 1.238483
+
+dynamic chunk size 1:
+    real time: 1.767s
+    work_hard: 1.314s
+    First Compute Path Time = 0.175104
+    Second Compute Path Time = 1.134549
+
+dynamic chunk size 100:
+    real time: 1.693s
+    work_hard: 1.235s
+    First Compute Path Time = 0.157537
+    Second Compute Path Time = 1.075535
+
+dynamic chunk size 10000:
+    real time: 1.670s
+    work_hard: 1.216s
+    First Compute Path Time = 0.148581
+    Second Compute Path Time = 1.062790
+
